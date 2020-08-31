@@ -2,7 +2,7 @@
 
 This is a python script that tests responsiveness or interactivity of the OS scheduler.
 The interactive thread sleeps more than it runs (i.e. user clicks). The script measures
-interactivity with 3 different tasks (sort 1000 array, read file and print to console, read file and write it to another file). During each
+interactivity with 3 different tasks (sort 10000 array, read file and print to console, read file and write it to another file). During each
 process it sleeps for random time between 1s-3s. At the same time, you can run # threads doing is prime function which overwhelm the cpu which is usefull
 to test the interactivity during heavy tasks running.
 
