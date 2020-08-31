@@ -1,71 +1,47 @@
-python3 responsiveness.py -i1 -p4 --np 2
+python3 responsiveness.py -i1 -p4 --np 4
 
 cfs
 ---------------------------------------
-prime time:  35.17795221000051
-prime time:  35.29696400800003
-prime time:  35.05473344800066
-prime time:  34.68409761900057
-interactive time:  1.385830879002242
+0 prime time:  117.67925237099999
+1 prime time:  118.21711467099999
+2 prime time:  117.73428037500001
+3 prime time:  117.94308160699998
+0 total response time:  1.7313118889998407  runs:  59  average:  0.029344269305082046
 
-prime time:  35.615891326000565
-prime time:  35.592794835999484
-prime time:  35.519273212999906
-prime time:  35.788028940000004
-interactive time:  1.5525564470008248
+0 prime time:  117.39117799799999
+1 prime time:  116.843602734
+2 prime time:  117.548042081
+3 prime time:  117.06012180399998
+0 total response time:  1.5514819410002474  runs:  57  average:  0.02721898142105697
 
-prime time:  36.48894649900012
-prime time:  36.38531204299943
-prime time:  36.40655225899991
-prime time:  36.37892388699947
-interactive time:  1.5712514209990331
+0 prime time:  117.895916193
+1 prime time:  117.52486103799998
+2 prime time:  117.36508882599998
+3 prime time:  117.68883336199997
+0 total response time:  1.9522037520001163  runs:  63  average:  0.03098736114285899
 
-prime time:  36.75275028600004
-prime time:  36.844001823999974
-prime time:  36.70108432699999
-prime time:  36.98340400300003
-interactive time:  1.6265278329996136
 
-prime time:  35.61729873999991
-prime time:  34.826492788999985
-prime time:  34.957738463000055
-prime time:  35.510637693000035
-interactive time:  1.4591671450000376
 
 
 
 
 Cachy CPU scheduler v5.9-r1
 ---------------------------------------
-prime time:  35.887119817
-prime time:  36.23026599800001
-prime time:  36.460873649999996
-prime time:  35.96782819800001
-interactive time:  0.9697716309999933
+0 prime time:  117.76532076499984
+1 prime time:  117.80854429700003
+2 prime time:  117.71759791300019
+3 prime time:  117.54894736100005
+0 total response time:  1.0005061630004093  runs:  58  average:  0.017250106258627745
 
-prime time:  37.211542187999996
-prime time:  35.43707593299999
-prime time:  35.149867199
-prime time:  35.16522022000001
-interactive time:  0.8802804240000199
+0 prime time:  117.21840353000016
+1 prime time:  117.34062325900004
+2 prime time:  117.55275667900014
+3 prime time:  117.29024891299991
+0 total response time:  0.8467758320007306  runs:  55  average:  0.015395924218195101
 
-prime time:  34.680668413999996
-prime time:  37.187291912999996
-prime time:  36.563642601
-prime time:  38.234564718
-interactive time:  1.0129592349999825
-
-prime time:  39.124836501999994
-prime time:  38.75638805699998
-prime time:  38.69283366100001
-prime time:  40.53518027800004
-interactive time:  0.8572928019999608
-
-prime time:  35.28537394799997
-prime time:  34.63202126900006
-prime time:  34.801406507000024
-prime time:  34.75321692799997
-interactive time:  0.7060959349998939
-
-
+0 prime time:  118.15438402999985
+1 prime time:  118.598745689
+2 prime time:  118.86651868100012
+3 prime time:  118.57876234199989
+0 total response time:  1.2112995319992024  runs:  62  average:  0.019537089225793586
 
