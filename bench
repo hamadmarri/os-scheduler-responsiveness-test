@@ -20,6 +20,11 @@ cfs
 3 prime time:  117.68883336199997
 0 total response time:  1.9522037520001163  runs:  63  average:  0.03098736114285899
 
+0 prime time:  115.65509803400005
+1 prime time:  115.9580455219999
+2 prime time:  116.20158638300006
+3 prime time:  116.31315865099998
+0 total response time:  1.4984810280003558  runs:  55  average:  0.027245109600006468
 
 
 
@@ -44,4 +49,60 @@ Cachy CPU scheduler v5.9-r1
 2 prime time:  118.86651868100012
 3 prime time:  118.57876234199989
 0 total response time:  1.2112995319992024  runs:  62  average:  0.019537089225793586
+
+
+
+
+5.7.10-cachy-1-default
+---------------------------------------
+0 prime time:  116.85273260199999
+1 prime time:  116.756232073
+2 prime time:  117.211272063
+3 prime time:  116.28387518800001
+0 total response time:  1.0067616869998943  runs:  56  average:  0.017977887267855257
+
+0 prime time:  117.114929673
+1 prime time:  116.53411967400001
+2 prime time:  117.11342587700005
+3 prime time:  116.485009849
+0 total response time:  1.0015391049998357  runs:  58  average:  0.01726791560344544
+
+
+
+
+
+Cachy CPU scheduler v5.9-r1 FAIR_GROUP
+---------------------------------------
+0 prime time:  116.73125404999996
+1 prime time:  116.16478632000008
+2 prime time:  115.9045472140001
+3 prime time:  116.54099672999996
+0 total response time:  1.1960289559997364  runs:  61  average:  0.01960703206556945
+
+
+0 prime time:  117.0509865900001
+1 prime time:  116.17346322100002
+2 prime time:  116.29594061299986
+3 prime time:  116.13265545299987
+0 total response time:  1.8880582409990438  runs:  61  average:  0.030951774442607275
+
+0 prime time:  116.62118861500016
+1 prime time:  116.08580491300017
+2 prime time:  116.64248297199993
+3 prime time:  115.9428647719999
+0 total response time:  1.0565236749998803  runs:  59  average:  0.017907180932201363
+
+0 prime time:  117.24401031399998
+1 prime time:  117.22708316700005
+2 prime time:  116.62751208700001
+3 prime time:  116.81020575799994
+0 total response time:  1.3192255829994792  runs:  55  average:  0.023985919690899624
+
+
+
+
+
+
+
+
 
