@@ -53,6 +53,94 @@ Cachy CPU scheduler v5.9-r1
 
 
 
+Cachy CPU scheduler v9.0-rc3-xanmod2
+------------------------------------
+0 prime time:  119.26004789699999
+1 prime time:  119.09010348200002
+2 prime time:  118.67874262500001
+3 prime time:  118.04320023099999
+0 total response time:  1.256679263000109  runs:  62  average:  0.020269020370969497
+
+
+0 prime time:  115.13254713900005
+1 prime time:  114.28681614000004
+2 prime time:  115.24983319700004
+3 prime time:  114.18153003300006
+0 total response time:  1.186740809000412  runs:  63  average:  0.018837155698419237
+
+
+
+
+
+Cachy CPU scheduler v5.9-r2
+----------------------------
+0 prime time:  119.25377803100002
+1 prime time:  119.05972815800004
+2 prime time:  119.60869770799997
+3 prime time:  119.59193220499998
+0 total response time:  1.1096972759996788  runs:  61  average:  0.018191758622945555
+
+0 prime time:  115.81125225999995
+1 prime time:  115.91398258000004
+2 prime time:  116.12840664300006
+3 prime time:  116.07488187699994
+0 total response time:  1.1715400240003646  runs:  60  average:  0.019525667066672744
+
+
+
+
+
+
+
+5.9.0-fix_tasks_starving-rc3-1-default+ put_prev
+--------------------------------------------------
+0 prime time:  115.55966966700021
+1 prime time:  115.891823574
+2 prime time:  115.54114704299991
+3 prime time:  115.45528136600001
+0 total response time:  0.9120874740010549  runs:  54  average:  0.016890508777797315
+
+0 prime time:  116.03368343300008
+1 prime time:  116.33363585699999
+2 prime time:  116.85217353100006
+3 prime time:  116.00248629299995
+0 total response time:  0.9869451519991799  runs:  58  average:  0.01701629572412379
+
+0 prime time:  121.50217125199993
+1 prime time:  121.26378905399997
+2 prime time:  121.38940398699992
+3 prime time:  120.88151176399992
+0 total response time:  1.0990609959992526  runs:  60  average:  0.01831768326665421
+
+
+
+
+
+5.9.0-fix_tasks_starving-rc3-1-default+
+---------------------------------------
+0 prime time:  115.5057988059998
+1 prime time:  122.67402620400026
+2 prime time:  115.66623174300003
+3 prime time:  118.94017974400003
+0 total response time:  1.095137781998801  runs:  61  average:  0.01795307839342297
+
+
+0 prime time:  117.43492588999999
+1 prime time:  117.90743251200004
+2 prime time:  117.15155158000002
+3 prime time:  118.08430698299998
+0 total response time:  1.1348278819997972  runs:  60  average:  0.018913798033329952
+
+0 prime time:  118.542787137
+1 prime time:  118.37007075999998
+2 prime time:  118.61370089900004
+3 prime time:  118.12170032400002
+0 total response time:  1.0362506110005825  runs:  58  average:  0.01786638984483763
+
+
+
+
+
 5.7.10-cachy-1-default
 ---------------------------------------
 0 prime time:  116.85273260199999
@@ -66,6 +154,7 @@ Cachy CPU scheduler v5.9-r1
 2 prime time:  117.11342587700005
 3 prime time:  116.485009849
 0 total response time:  1.0015391049998357  runs:  58  average:  0.01726791560344544
+
 
 
 
