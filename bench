@@ -28,6 +28,26 @@ cfs
 
 
 
+Cachy Dynamic Prios
+--------------------
+0 prime time:  124.64169678899998
+1 prime time:  125.02837121300001
+2 prime time:  124.57637625300003
+3 prime time:  124.68620741799998
+0 total response time:  0.9640525040002785  runs:  58  average:  0.016621594896556527
+
+0 prime time:  120.58393359599995
+1 prime time:  121.12327215799996
+2 prime time:  120.70937960600008
+3 prime time:  121.11510974399994
+0 total response time:  1.06599638900002  runs:  57  average:  0.018701691035088067
+
+0 prime time:  119.12537371200006
+1 prime time:  119.46260903400002
+2 prime time:  119.699725167
+3 prime time:  119.6036587850001
+0 total response time:  0.9350933450004959  runs:  54  average:  0.01731654342593511
+
 
 
 Cachy CPU scheduler v5.9-r1
@@ -115,32 +135,6 @@ Cachy CPU scheduler v5.9-r2
 
 
 
-
-5.9.0-fix_tasks_starving-rc3-1-default+
----------------------------------------
-0 prime time:  115.5057988059998
-1 prime time:  122.67402620400026
-2 prime time:  115.66623174300003
-3 prime time:  118.94017974400003
-0 total response time:  1.095137781998801  runs:  61  average:  0.01795307839342297
-
-
-0 prime time:  117.43492588999999
-1 prime time:  117.90743251200004
-2 prime time:  117.15155158000002
-3 prime time:  118.08430698299998
-0 total response time:  1.1348278819997972  runs:  60  average:  0.018913798033329952
-
-0 prime time:  118.542787137
-1 prime time:  118.37007075999998
-2 prime time:  118.61370089900004
-3 prime time:  118.12170032400002
-0 total response time:  1.0362506110005825  runs:  58  average:  0.01786638984483763
-
-
-
-
-
 5.7.10-cachy-1-default
 ---------------------------------------
 0 prime time:  116.85273260199999
@@ -158,34 +152,6 @@ Cachy CPU scheduler v5.9-r2
 
 
 
-
-
-Cachy CPU scheduler v5.9-r1 FAIR_GROUP
----------------------------------------
-0 prime time:  116.73125404999996
-1 prime time:  116.16478632000008
-2 prime time:  115.9045472140001
-3 prime time:  116.54099672999996
-0 total response time:  1.1960289559997364  runs:  61  average:  0.01960703206556945
-
-
-0 prime time:  117.0509865900001
-1 prime time:  116.17346322100002
-2 prime time:  116.29594061299986
-3 prime time:  116.13265545299987
-0 total response time:  1.8880582409990438  runs:  61  average:  0.030951774442607275
-
-0 prime time:  116.62118861500016
-1 prime time:  116.08580491300017
-2 prime time:  116.64248297199993
-3 prime time:  115.9428647719999
-0 total response time:  1.0565236749998803  runs:  59  average:  0.017907180932201363
-
-0 prime time:  117.24401031399998
-1 prime time:  117.22708316700005
-2 prime time:  116.62751208700001
-3 prime time:  116.81020575799994
-0 total response time:  1.3192255829994792  runs:  55  average:  0.023985919690899624
 
 
 
