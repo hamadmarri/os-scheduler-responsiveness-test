@@ -28,6 +28,47 @@ cfs
 
 
 
+
+Cachy Dynamic Prios - Xanmod (no autogroup but with cgroups, fair ...) With balancing
+-------------------------------------------------------------------------------------
+0 prime time:  121.46422438399986
+1 prime time:  121.71087448000003
+2 prime time:  121.34983599599991
+3 prime time:  121.85114399199983
+0 total response time:  1.1135254480013828  runs:  58  average:  0.019198714620713497
+
+0 prime time:  119.26868871099987
+1 prime time:  119.37331192400006
+2 prime time:  119.51888021199989
+3 prime time:  119.42052133600009
+0 total response time:  1.3654932470012682  runs:  65  average:  0.021007588415404125
+
+0 prime time:  119.92997828600005
+1 prime time:  119.25219993099995
+2 prime time:  119.64313752399994
+3 prime time:  120.118371626
+0 total response time:  0.9617988169993623  runs:  58  average:  0.016582738224126935
+
+
+
+
+Cachy Dynamic Prios - Xanmod (no autogroup but with cgroups, fair ...)
+-----------------------------------------------------------------------
+0 prime time:  124.51374049499998
+1 prime time:  124.98295818500003
+2 prime time:  123.83734678499997
+3 prime time:  124.76937987499997
+0 total response time:  1.1311972360001619  runs:  61  average:  0.01854421698360921
+
+0 prime time:  118.42429830399999
+1 prime time:  118.158853744
+2 prime time:  118.324289561
+3 prime time:  118.71092178499987
+0 total response time:  1.0537037390000705  runs:  59  average:  0.017859385406780857
+
+
+
+
 Cachy Dynamic Prios
 --------------------
 0 prime time:  124.64169678899998
