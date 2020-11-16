@@ -27,6 +27,135 @@ cfs
 0 total response time:  1.4984810280003558  runs:  55  average:  0.027245109600006468
 
 
+cfs 5.8.10-1-default
+---------------------------------
+0 prime time:  125.15578974900001
+1 prime time:  125.26240227300002
+2 prime time:  124.83422208300001
+3 prime time:  125.17087699899997
+0 total response time:  2.022817835000126  runs:  65  average:  0.03112027438461732
+
+0 prime time:  119.75745602399996
+1 prime time:  119.75493116000007
+2 prime time:  119.77128388400001
+3 prime time:  119.67529798600003
+0 total response time:  1.7078713770003446  runs:  59  average:  0.028946972491531265
+
+
+
+Cachy smooth + nohz balance delay 1s
+-------------------------------------
+0 prime time:  123.976162009
+1 prime time:  123.558647909
+2 prime time:  123.81842353600001
+3 prime time:  123.25751844300004
+0 total response time:  1.4714806879999855  runs:  67  average:  0.021962398328357995
+
+0 prime time:  121.59089339500002
+1 prime time:  122.12591292000002
+2 prime time:  121.48034434900006
+3 prime time:  122.06881665199995
+0 total response time:  1.531564074000471  runs:  69  average:  0.02219658078261552
+
+0 prime time:  120.32389741999998
+1 prime time:  121.00759430899996
+2 prime time:  119.77841827099996
+3 prime time:  120.90520061100005
+0 total response time:  1.081554593000078  runs:  61  average:  0.017730403163935708
+
+0 prime time:  124.06740826999999
+1 prime time:  124.581934241
+2 prime time:  123.21486873100002
+3 prime time:  124.51920343400002
+0 total response time:  1.3912333570000897  runs:  66  average:  0.021079293287880146
+
+0 prime time:  121.34440082499998
+1 prime time:  122.07023457799994
+2 prime time:  121.96418214300002
+3 prime time:  122.14427535799996
+0 total response time:  0.9751090540001996  runs:  60  average:  0.016251817566669994
+
+
+Cachy smooth
+-------------
+0 prime time:  122.78868747199999
+1 prime time:  123.67229080300001
+2 prime time:  122.89836474000003
+3 prime time:  123.64435632799996
+0 total response time:  1.0507726950002052  runs:  60  average:  0.01751287825000342
+
+0 prime time:  119.53299097299998
+1 prime time:  120.53949818399997
+2 prime time:  120.11589677900008
+3 prime time:  120.67997506899997
+0 total response time:  0.978885177000052  runs:  59  average:  0.01659127418644156
+
+0 prime time:  121.52172624000002
+1 prime time:  121.33276418399998
+2 prime time:  121.53609591099996
+3 prime time:  121.31786737100003
+0 total response time:  0.958383627999865  runs:  56  average:  0.017113993357140447
+
+
+
+
+cachy_mode=1
+------------
+0 prime time:  119.55954926300001
+1 prime time:  119.27180984300003
+2 prime time:  119.0521765579997
+3 prime time:  119.61848809399976
+0 total response time:  1.2766911759997583  runs:  62  average:  0.020591793161286426
+
+0 prime time:  119.60502578700016
+1 prime time:  119.2904781860002
+2 prime time:  119.67979928900013
+3 prime time:  119.89032037800007
+0 total response time:  1.1430509029992209  runs:  61  average:  0.01873853939342985
+
+
+cachy_mode=2
+------------
+0 prime time:  118.13983969999981
+1 prime time:  118.22727053200015
+2 prime time:  119.04579618900016
+3 prime time:  119.05816680599992
+0 total response time:  0.9709794959999272  runs:  55  average:  0.01765417265454413
+
+0 prime time:  118.9984012900004
+1 prime time:  118.94619484600025
+2 prime time:  118.85614315600014
+3 prime time:  119.2707639780001
+0 total response time:  0.7909948250016896  runs:  52  average:  0.015211438942340184
+
+0 prime time:  118.81641056600029
+1 prime time:  119.24113970600001
+2 prime time:  119.14926137400016
+3 prime time:  119.72199876900004
+0 total response time:  1.1677808989975347  runs:  60  average:  0.019463014983292243
+
+
+
+
+
+Xanmod (no autogroup but with cgroups, fair ...) With balancing
+-------------------------------------------------------------------------------------
+
+0 prime time:  120.38931102499998
+1 prime time:  121.02902184900006
+2 prime time:  120.74313737799997
+3 prime time:  120.81882650799997
+0 total response time:  1.1381310159995337  runs:  59  average:  0.019290356203381927
+
+0 prime time:  119.43534089000002
+1 prime time:  118.66077952199998
+2 prime time:  118.35627716600004
+3 prime time:  119.06163579400004
+0 total response time:  0.830749380999805  runs:  54  average:  0.015384247796292685
+
+
+
+
 
 
 Cachy Dynamic Prios - Xanmod (no autogroup but with cgroups, fair ...) With balancing
@@ -148,30 +277,6 @@ Cachy CPU scheduler v5.9-r2
 0 total response time:  1.1715400240003646  runs:  60  average:  0.019525667066672744
 
 
-
-
-
-
-
-5.9.0-fix_tasks_starving-rc3-1-default+ put_prev
---------------------------------------------------
-0 prime time:  115.55966966700021
-1 prime time:  115.891823574
-2 prime time:  115.54114704299991
-3 prime time:  115.45528136600001
-0 total response time:  0.9120874740010549  runs:  54  average:  0.016890508777797315
-
-0 prime time:  116.03368343300008
-1 prime time:  116.33363585699999
-2 prime time:  116.85217353100006
-3 prime time:  116.00248629299995
-0 total response time:  0.9869451519991799  runs:  58  average:  0.01701629572412379
-
-0 prime time:  121.50217125199993
-1 prime time:  121.26378905399997
-2 prime time:  121.38940398699992
-3 prime time:  120.88151176399992
-0 total response time:  1.0990609959992526  runs:  60  average:  0.01831768326665421
 
 
 
