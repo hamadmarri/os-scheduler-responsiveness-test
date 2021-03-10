@@ -10,16 +10,17 @@ from random import *
 
 
 def interactive(results, iterations):
+	r = 1
 	while True:
-		r = randint(1, 3)
 		if r == 1:
 			start = timer()
 			time.sleep(r)
 			print("sorting")
 			array = [randint(1, 10000) for j in range(0, 10000)]
 			array2 = sorted(array)
+			print(array2)
 			end = timer()
-			results.value = results.value + (end - start) - r
+			results.value += (end - start) - r
 		elif r == 2:
 			start = timer()
 			time.sleep(r)
@@ -27,7 +28,7 @@ def interactive(results, iterations):
 			print(f.read())
 			f.close()
 			end = timer()
-			results.value = results.value + (end - start) - r
+			results.value += (end - start) - r
 		else:
 			start = timer()
 			time.sleep(r)
@@ -43,10 +44,12 @@ def interactive(results, iterations):
 			f1.close()
 			f2.close()
 			end = timer()
-			results.value = results.value + (end - start) - r
+			results.value += (end - start) - r
 		
 		iterations.value = iterations.value + 1
-			
+		r += 1
+		if r > 3:
+			r = 1	
 			
 			
 
@@ -119,13 +122,13 @@ def main():
 	print("\n")
 	if args.p:	
 		for i in range(0, args.p):
-			print(i, "prime time: ", prime_time[i].value)
+			print(i, "prime time: ", str(prime_time[i].value) + "s")
 	
 	if args.i:	
 		for i in range(0, args.i):
-			print(i, "total response time: ", interactive_time[i].value, \
+			print(i, "total response time: ", str(interactive_time[i].value) + "s", \
 			" runs: ", interactive_iterations[i].value, \
-			" average: ", interactive_time[i].value / interactive_iterations[i].value)
+			" average: ", str(interactive_time[i].value / interactive_iterations[i].value) + "s")
 	
 	# if args.f:
 	
