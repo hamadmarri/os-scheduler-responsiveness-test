@@ -1,6 +1,6 @@
 # os-scheduler-responsiveness-test
 
-This is a python script that tests responsiveness or interactivity of the OS scheduler.
+This is a Python/Go script that tests responsiveness or interactivity of the OS scheduler.
 The interactive thread sleeps more than it runs (i.e. user clicks). The script measures
 interactivity with 3 different tasks (sort 10000 array, read file and print to console, read file and write it to another file). During each
 process it sleeps for random time between 1s-3s. At the same time, you can run # threads doing is prime function which overwhelm the cpu which is usefull
@@ -23,7 +23,9 @@ optional arguments:
 
 
 ## Example
-`python3 responsiveness.py -i1 -p4 --np 2`
+
+### Python
+`python3 responsiveness.py -i1 -p4 --np 4`
 
 -i is the number of threads for interactive test, usually one or two is good as it represents a user activity
 
@@ -31,8 +33,17 @@ optional arguments:
 
 --np the size of numbers in prime test:
 ```
- for i in range(10001, 10001 * (np + 1), 2):
- ```
+for i in range(10001, 10001 * (np + 1), 2):
+```
+
+### Go
+`go run prime.go -p 4 -t 96 & go run interactive.go -t 95`
+
+-p int
+    	number of threads (default 1)
+-t float
+    	number of seconds (default 10)
+
  
  
  
