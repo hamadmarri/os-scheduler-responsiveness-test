@@ -9,9 +9,11 @@ from random import *
 
 
 
-def interactive(results, iterations):
+def interactive(results, iterations, seconds):	
+	total_start_time = timer()
 	r = 1
-	while True:
+	
+	while not seconds or ((timer() - total_start_time) < seconds):
 		if r == 1:
 			start = timer()
 			time.sleep(r)
@@ -49,7 +51,7 @@ def interactive(results, iterations):
 		iterations.value = iterations.value + 1
 		r += 1
 		if r > 3:
-			r = 1	
+			r = 1
 			
 			
 
@@ -81,6 +83,7 @@ def main():
 	parser.add_argument("--nf", help="number of read/write files iterations", type=int)
 	parser.add_argument("-p", help="number of calculate prime threads", type=int)
 	parser.add_argument("--np", help="number of calculate prime iterations", type=int)
+	parser.add_argument("-t", help="number of seconds", type=int)
 	
 	args = parser.parse_args()
 	
@@ -104,7 +107,7 @@ def main():
 			interactive_iterations[i] = multiprocessing.Value("i", 0, lock=False)
 			interactive_threads.append( \
 				multiprocessing.Process(target=interactive, \
-				args=(interactive_time[i], interactive_iterations[i],)))
+				args=(interactive_time[i], interactive_iterations[i], args.t)))
 		
 		for i in range(0, args.i):
 			interactive_threads[i].start()
@@ -115,9 +118,12 @@ def main():
 		for i in range(0, args.p):
 			prime_threads[i].join()
 	
-	if args.i:
+	if args.i and args.p:
 		for i in range(0, args.i):
 			interactive_threads[i].terminate()
+	elif args.i:
+		for i in range(0, args.i):
+			interactive_threads[i].join()
 	
 	print("\n")
 	if args.p:	
@@ -130,11 +136,6 @@ def main():
 			" runs: ", interactive_iterations[i].value, \
 			" average: ", str(interactive_time[i].value / interactive_iterations[i].value) + "s")
 	
-	# if args.f:
-	
-	
-	
-
 
 if __name__ == "__main__":
 	main()
