@@ -8,16 +8,18 @@ import (
 	"math/rand"
 	"io/ioutil"
 	"os"
+	"log"
 )
 
 func sorting(results *time.Duration) {
-	ints := make([]int, 10000, 10000)
+	size := 100000
+	ints := make([]int, size, size)
 
 	start := time.Now()
 	time.Sleep(1 * time.Second)
 	
-	for i := 0; i < 10000; i++ {
-		ints[i] = rand.Intn(10000)
+	for i := 0; i < size; i++ {
+		ints[i] = rand.Intn(size)
 	}
 
 	sort.Ints(ints)
@@ -32,7 +34,7 @@ func readFile(results *time.Duration) {
 	start := time.Now()
 	time.Sleep(2 * time.Second)
 
-	dat, _ := ioutil.ReadFile("almarri")
+	dat, _ := ioutil.ReadFile("almarriGO")
 	fmt.Println(string(dat))
 
 	end := time.Now()
@@ -47,8 +49,22 @@ func readWriteFile(results *time.Duration) {
 	fmt.Println("reading/writing to almarri2")
 	os.Remove("almarri2")
 	
-	dat, _ := ioutil.ReadFile("almarri")
-	ioutil.WriteFile("almarri2", dat, 0644)
+	f, err := os.Create("almarri2")
+
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    defer f.Close()
+  
+	bytes, _ := ioutil.ReadFile("almarriGO")
+	s := string(bytes)
+
+	_, err2 := f.WriteString(s)
+
+    if err2 != nil {
+        log.Fatal(err2)
+    }
 
 	end := time.Now()
 	*results += end.Sub(start)
