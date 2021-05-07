@@ -21,7 +21,7 @@ optional arguments:
   --np NP     number of calculate prime iterations
 ```
 
-
+## Note
 Use it with AUTOGROUP disabled
 
 ## Example
