@@ -22,6 +22,8 @@ optional arguments:
 ```
 
 
+Use it with AUTOGROUP disabled
+
 ## Example
 
 ### Python
