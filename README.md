@@ -22,7 +22,13 @@ optional arguments:
 ```
 
 ## Note
-Use it with AUTOGROUP disabled
+Use it with AUTOGROUP disabled (on one terminal)
+
+Or if autogroup is enabled, then open 2 terminals and run 
+```
+terminal1: python3 responsiveness.py -i1 
+terminal2: python3 responsiveness.py -p4 --np 4
+```
 
 ## Example
 
